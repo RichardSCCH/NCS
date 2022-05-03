@@ -1,3 +1,10 @@
+## Docker commands:
+Build and tag image:\
+```docker build -t <tag> .```
+
+Start container and allow usage of all gpus:\
+```docker run --gpus all -it --name <name> <image>```
+
 ## A Transformer-based Approach for Source Code Summarization
 Official implementation of our ACL 2020 paper on Source Code Summarization. [[arxiv](https://arxiv.org/abs/2005.00653)]
 
